@@ -185,7 +185,7 @@ Then:
 
 Earlier experiments used a Spanish SentiWordNet resource and custom Spanish stop-word lists. Those third-party resources are **not** bundled in this maintained project.
 
-Before extracting this project into its final standalone repository, the provenance and redistribution terms of third-party lexical resources should be verified. The code therefore accepts the lexicon path through configuration rather than embedding the resource into the package.
+Before bundling or redistributing any third-party lexical resource, its provenance and redistribution terms should be verified. The code therefore accepts the lexicon path through configuration rather than embedding the resource into the package.
 
 ## Configuration
 
@@ -232,7 +232,7 @@ The modernization also resolves several implementation problems in the original 
 
 ## Next research pass
 
-Before this becomes a final portfolio repository, the most valuable additions would be:
+The most valuable next additions would be:
 
 - a labelled Spanish topic/sentiment evaluation dataset
 - clustering metrics and qualitative topic analysis
